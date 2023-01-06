@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+#myVideo {
+    position: fixed;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-content: center;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 25px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    color: white;
+}
+
+#btnOne, #btnTwo, #btnThree {
+    display: flex;
+    color: black;
+    justify-content: center;
+    width: 20%;
+    padding: 5px;
+    }
+
+#countdownOne, #countdownTwo, #countdownThree {
+    color: white;
+    font-size: 25px;
+    opacity: 1;
+}
+
+@media all and (max-width: 800px) {
+    #btnOne, #btnTwo, #btnThree {
+    width: 40%;
+    }
+    #main {
+      margin-top: 0px;
+      margin-left: 10px;
+      width: 80%;
+      font-size: 16px;
+      opacity: 0.6;
+    }
+  }

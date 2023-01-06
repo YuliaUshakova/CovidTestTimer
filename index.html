@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+        <source src="Nebula - 64099.mp4" type="video/mp4" controls>
+        </video>
+
+   <div id="main">
+    <div id="container">
+    <p id="text">Once you have collected your sample, press "Develop Sample" button below.
+    You will be given 1 minute to leave the swab with your sample in the extraction tube. </p>
+    <button id="btnOne">Develop Sample</button>
+    <p id="countdownOne"></p>
+    </div>
+        
+    <div id="container">
+    <p  id="text">Then, 1 minute to withdraw the swab from the extraction tube, push the nozzle
+    cap tightly on the extraction tube to avoid any leaks and to gently squeeze 4 drops of liquid onto the sample well (marked S) on the test cassette (press "Transfer Sample").
+</p>
+<button id="btnTwo">Transfer Sample</button>
+    <p id="countdownTwo"></p>
+</div>
+    
+<div id="container">
+    <p id="text">Once ready, press "Get Test Results" for 15 minutes countdown to your results.</p>
+      
+   <button id="btnThree">Get Test Results</button>
+    <p  id="countdownThree"></p>
+</div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
